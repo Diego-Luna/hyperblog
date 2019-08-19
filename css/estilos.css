@@ -282,6 +282,17 @@ Para Borrar un Tags de github
 ************Para Agregar un alias o tag*************
 ****************************************************
 
+************************
+********ramas***********
+************************
+
+git show-branch --all (¿Cuales branch existen y sus historias)
+gitk (igual que la anterior per con gui)
+
+************************
+********ramas***********
+************************
+
 */
 
 body {
