@@ -244,6 +244,33 @@ git remote set-url origin url-ssh-del-repositorio-en-github
 *****Cambiar a SSH para conectrarnos con GitHub*****
 ****************************************************
 
+****************************************************
+************Para Agregar un alias o tag*************
+****************************************************
+
+Para Crear un alias
+alias  (NombreQueTendra)="(El comando que va a tener el alias)"
+Ejemplo: alias arbolito="git log --all --graph --decorate --oneline"
+
+Pra poder ver el flujo con ayuda visual:  $ git log--all --graph
+
+
+Para Crear un tag
+
+git tag -a (NombreDelTag) -m "(Mensaje o descripcion)" (El numero del comit que tomara)
+Ejemplo: git tag -a v0.1 -m "Resultado de las primeras clases del curso" b71de49
+
+Para ver todos los Tags que hay
+git tag
+
+Para Saver que comit esta conectado a cada tag
+git show-ref --tags
+
+
+****************************************************
+************Para Agregar un alias o tag*************
+****************************************************
+
 */
 
 body {
