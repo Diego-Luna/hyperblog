@@ -257,15 +257,26 @@ Pra poder ver el flujo con ayuda visual:  $ git log--all --graph
 
 Para Crear un tag
 
-git tag -a (NombreDelTag) -m "(Mensaje o descripcion)" (El numero del comit que tomara)
-Ejemplo: git tag -a v0.1 -m "Resultado de las primeras clases del curso" b71de49
+  git tag -a (NombreDelTag) -m "(Mensaje o descripcion)" (El numero del comit que tomara)
+  Ejemplo: git tag -a v0.1 -m "Resultado de las primeras clases del curso" b71de49
 
 Para ver todos los Tags que hay
-git tag
+
+  git tag
 
 Para Saver que comit esta conectado a cada tag
-git show-ref --tags
 
+  git show-ref --tags
+
+Para borar un Tags de manera local
+
+  git tag -d (NombreDelTagAEliminar)
+  Ejemplo: git tag -d dormido
+
+Para Borrar un Tags de github
+
+  git push origin :refs/tags/(NombreDelTagAEliminar)
+  Ejemplo: git push origin :refs/tags/dormido
 
 ****************************************************
 ************Para Agregar un alias o tag*************
