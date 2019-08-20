@@ -161,7 +161,7 @@ git merge (branchName)
 ************Traer un repositorio externo************
 ****************************************************
 
-git remote add origin (url)
+git remote add origin (url del HTTPS)
 git remote (muestra el origen)
 git remote -v(es verval)
 
