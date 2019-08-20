@@ -285,7 +285,7 @@ Para Borrar un Tags de github
 */
 
 body {
-    color: blue;
+    color: black;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -324,4 +324,15 @@ body {
 
 #post {
     padding: 1em;
+}
+
+.footer{
+  text-align: center;
+  background-color: #757775;
+  color: white;
+  font-size: 20px;
+}
+.footer p{
+  padding: 8px 0 8px 0;
+
 }
