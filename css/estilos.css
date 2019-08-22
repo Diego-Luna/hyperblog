@@ -288,9 +288,22 @@ Para Borrar un Tags de github
 
 git show-branch --all (¿Cuales branch existen y sus historias)
 gitk (igual que la anterior per con gui)
+git push origin :[nombre_branch] (Elimina rama remota)
+
 
 ************************
 ********ramas***********
+************************
+
+************************
+***Crear fuente nueva***
+************************
+
+git remote add upstream (url-github)
+git pull upstream master (trae todos los cabios de master del origen upstream)
+
+************************
+***Crear fuente nueva***
 ************************
 
 */
