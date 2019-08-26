@@ -306,6 +306,18 @@ git pull upstream master (trae todos los cabios de master del origen upstream)
 ***Crear fuente nueva***
 ************************
 
+************************
+*****Usando Rebase******
+************************
+
+rebase reescribe la historia del repositorio, cambia la historia de donde comenzó la rama y solo debe ser usado de manera local.
+
+git rebase (rama)
+
+************************
+*****Usando Rebase******
+************************
+
 */
 
 body {
