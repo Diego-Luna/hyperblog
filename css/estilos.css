@@ -389,6 +389,20 @@ Pero para que funcione hay que agrgarlo con "git add (archivo)"
 ****Reconstruír commits en Git con amend****
 ********************************************
 
+*******************************************************************************
+****************Git Reset y Reflog: Úsese en caso de emergencia****************
+*******************************************************************************
+
+git reflog (Permite ver el log completo)
+
+git reset HEAD@{2}
+
+git RESET --hard 9ea6558
+
+*******************************************************************************
+****************Git Reset y Reflog: Úsese en caso de emergencia****************
+*******************************************************************************
+
 */
 
 body {
