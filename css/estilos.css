@@ -377,6 +377,18 @@ cherry-pick es una mala práctica porque significa que estamos reconstruyendo la
 ***Git cherry-pick: Traer commits viejos al head de un branch******
 *******************************************************************
 
+********************************************
+****Reconstruír commits en Git con amend****
+********************************************
+
+git commit --amend (coloca los cambios en el útimo commit realizado)
+
+Pero para que funcione hay que agrgarlo con "git add (archivo)"
+
+********************************************
+****Reconstruír commits en Git con amend****
+********************************************
+
 */
 
 body {
