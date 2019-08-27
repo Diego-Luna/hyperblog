@@ -403,6 +403,21 @@ git RESET --hard 9ea6558
 ****************Git Reset y Reflog: Úsese en caso de emergencia****************
 *******************************************************************************
 
+**************************************************************************
+************Buscar en archivos y commits de Git con Grep y log************
+**************************************************************************
+
+git grep -n color (lugares donde uso la palabra color)
+
+git grep -c color (cuanteas veces esta la palabra color)
+
+$ git log -S "Cabecera" (Busca en los commits la palabra cabecera)
+
+
+**************************************************************************
+************Buscar en archivos y commits de Git con Grep y log************
+**************************************************************************
+
 */
 
 body {
