@@ -418,6 +418,44 @@ $ git log -S "Cabecera" (Busca en los commits la palabra cabecera)
 ************Buscar en archivos y commits de Git con Grep y log************
 **************************************************************************
 
+************************************
+************Alias en Git************
+************************************
+
+git short log (Ver commits realizados por persona)
+git shortlog -sn (¿cuantas veces han realizado commits, cada persona?)
+git shortlog -sn --all (detalle de absolutamente todos los commits)
+
+
+git config --global alias.stats "shortlog -sn --all --no-merges" (alias)
+
+************************************
+************Alias en Git************
+************************************
+
+**************************************************************
+**********************Detalle de cambios**********************
+**************************************************************
+
+git blame blogpost.html -c (Sobre un archivo)
+git blame --help
+git blame css/estilos.css -L35,58
+
+**************************************************************
+**********************Detalle de cambios**********************
+**************************************************************
+
+*******************************************
+*************Ver ramas remotas*************
+*******************************************
+
+git branch -r
+git branch -a
+
+
+*******************************************
+*************Ver ramas remotas*************
+
 */
 
 body {
