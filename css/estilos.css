@@ -347,6 +347,20 @@ De igual manera para llamar a un stash en particular y aplicarlo
 **Git Stash: Guardar cambios en memoria y recuperarlos después**
 ****************************************************************
 
+******************************************************
+******LIMPIAR ARCHIVOS NO DESEADOS CON GIT CLEAN******
+******************************************************
+
+Para saber que va a eliminar el git clean
+  git clean --dry-run
+
+Para borar la lista de archivos o archivo
+  git clean -f
+
+Solo va a borrar los archivos que no esten ignorados por el gitignore  
+******************************************************
+******LIMPIAR ARCHIVOS NO DESEADOS CON GIT CLEAN******
+******************************************************
 */
 
 body {
