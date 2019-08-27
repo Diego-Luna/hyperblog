@@ -318,6 +318,28 @@ git rebase (rama)
 *****Usando Rebase******
 ************************
 
+****************************************************************
+**Git Stash: Guardar cambios en memoria y recuperarlos después**
+****************************************************************
+
+Para guardar los cambios temporalmente se usar
+  git stash
+
+Para ver los cambios guardados con stash
+  git stash list
+
+Para mandar los cambios guardados en stash a una nueva ramas
+  git stash branch english-version
+
+Para borrar los cambios guardados en stash
+  git stash drop
+
+El Git Stash guarda los cambios sin hacer un commit, y te regresa al ultimo commit      
+
+****************************************************************
+**Git Stash: Guardar cambios en memoria y recuperarlos después**
+****************************************************************
+
 */
 
 body {
