@@ -334,7 +334,14 @@ Para mandar los cambios guardados en stash a una nueva ramas
 Para borrar los cambios guardados en stash
   git stash drop
 
-El Git Stash guarda los cambios sin hacer un commit, y te regresa al ultimo commit      
+El Git Stash guarda los cambios sin hacer un commit, y te regresa al ultimo commit
+
+Para poner un mensaje para  identificar un stash
+  git stash save"aqui va un mensaje para identificar el stash"
+
+De igual manera para llamar a un stash en particular y aplicarlo
+  git stash apply stash@{numero del stash}
+  El numero del stash lo podemos ver en la lista de stash
 
 ****************************************************************
 **Git Stash: Guardar cambios en memoria y recuperarlos después**
